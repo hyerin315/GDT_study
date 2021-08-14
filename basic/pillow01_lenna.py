@@ -5,7 +5,7 @@ window = tk.Tk()
 canvas = tk.Canvas(window, width=500, height=500)
 canvas.pack()
 
-img = Image.open("./img_lenna/lenna.png")
+img = Image.open("files/img_lenna/lenna.png")
 
 #이미지를 tk형식으로 변환
 tk_img = ImageTk.PhotoImage(img)
